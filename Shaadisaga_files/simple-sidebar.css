@@ -1,0 +1,153 @@
+#wrapper {
+    padding-left: 250px;
+    transition: all 0.4s ease 0s;
+    clear:both;
+}
+
+#sidebar-wrapper {
+    margin-left: -250px;
+    left: 250px;
+    top: 97px;
+    width: 250px;
+    position: absolute;
+    min-height: 350px;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+
+}
+
+.page-content{
+    background:#fff;
+    -webkit-box-shadow: -4px 0px 3px -2px rgba(180,181,182,1);
+    -moz-box-shadow: -4px 0px 3px -2px rgba(180,181,182,1);
+    box-shadow: -4px 0px 3px -2px rgba(180,181,182,1);
+    padding-bottom:0;
+    overflow:hidden;
+    min-height: 550px;
+}
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    border-bottom:1px solid #bcbec0;
+    border-top:1px solid #c7c9ca;
+}
+
+.sidebar-nav li a {
+    color: #181818;
+    display: block;
+    text-decoration: none;
+    line-height:62px;
+    padding-left:20px;
+    font-size:13px;
+    overflow:hidden;
+    position:relative;
+}
+.sidebar-nav li a span{
+    display:none;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 10px 8px 0;
+    border-color: transparent #fff transparent transparent;
+    top:23px;
+    position:absolute;
+    right:0;
+}
+.sidebar-nav li a.active span{
+    display:block;
+}
+
+.sidebar-nav li a:hover, .sidebar-nav li a.active {
+    background: #aeafb0;
+    text-decoration: none;
+}
+.sidebar-nav li a:hover span{
+    display:block;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.icon-wedding, .icon-invitations, .icon-events, .icon-collapse, .icon-contacts{
+    background:url(../../images/sidebarIcons/d-icons.png) no-repeat;
+    width:24px;
+    height:61px;
+    display:block;
+    float:left;
+    margin-right:15px;
+}
+#menu-toggle{
+    color:#666;
+}
+.icon-wedding{
+    background-position:0 20px;
+}
+.icon-invitations{
+    background-position:0 -40px;
+}
+.icon-events{
+    background-position:0 -100px;
+}
+.icon-contacts{
+    background-position:0 -160px;
+}
+.icon-collapse{
+    background-position:0 -220px;
+}
+.close-n .icon-collapse{
+    background-position:0 -280px;
+}
+
+
+#wrapper.active{
+    padding-left: 50px;
+}
+
+#wrapper.active #sidebar-wrapper {
+    left: 50px;
+}
+
+#wrapper.active .icon-wedding, #wrapper.active .icon-invitations, #wrapper.active .icon-events, #wrapper.active .icon-collapse, #wrapper.active .icon-contacts{
+    float:right;
+}
+
+
+
+@media (max-width:767px) {
+
+    #wrapper {
+        padding-left: 50px;
+        clear:both;
+    }
+    #wrapper.active{
+        padding-left: 250px;
+    }
+    #sidebar-wrapper {
+        left: 50px;
+    }
+    #wrapper.active #sidebar-wrapper {
+        left: 250px;
+        width: 250px;
+        transition: all 0.4s ease 0s;
+    }
+    .icon-wedding, .icon-invitations, .icon-events, .icon-collapse, .icon-contacts{
+        float:right;
+    }
+
+    .inset {
+        padding: 15px;
+    }
+
+}
