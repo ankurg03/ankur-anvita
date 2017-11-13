@@ -130,12 +130,30 @@
     <a href="todo.../user/getWedding" class="btn-link">View All Events</a>
     <div class="border-b c">&nbsp;</div>
     <h2 class="headline">WHERE</h2>
-    <h3 id="whereData" data-toggle="manual" tabindex="-1" class="editable editable-pre-wrapped">..... Sidhi </h3>
-    
+    <h3 id="whereData" data-toggle="manual" tabindex="-1" class="editable editable-pre-wrapped">Indralok hall Sidhi (Madhya Pradesh)</h3>
 
+
+<div id="map" style="width:100%;height:500px"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850); 
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5lTxpJz9qJBPbcmzUMXWSgwXUCGmrOmk&callback=myMap"></script>
 </div>
 
-<div class="headline"><a href="todo.../rsvp/rsvp" class="rsvp-btnb">RSVP HERE</a> </div>
+
+<div class="headline"><a href="todo............/rsvp/rsvp" class="rsvp-btnb">RSVP HERE</a> </div>
 
 
 <div id="myCoverModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
