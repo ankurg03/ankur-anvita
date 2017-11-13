@@ -435,24 +435,17 @@ function myMap() {
             $('#whereData').editable('toggle');
         });
 
-        var coverPhoto = 'https://www.demystifyinsurance.com/wp-content/uploads/2016/05/wedding-destination-header-image.jpg'
-        if(coverPhoto){
-            $('#cover').css({background : 'url("' + coverPhoto + '")  no-repeat',
+            $('#cover').css({background : 'url("./cover-pic.jpg")  no-repeat',
                 '-webkit-background-size': 'cover',
                 'background-size': 'cover',
                 'background-position':'cover',
                 'background-position':'center'
             });
-        }else{
-            $('#cover').css({background : 'url("' + "/images/celebration/cover.jpg" + '")  no-repeat',
-                '-webkit-background-size': 'cover',
-                'background-size': 'cover',
-                'background-position':'cover',
-                'background-position':'center'
-            });
-        }
+        
 
     });
+
+
     function formSubmitCoverPhoto(url,formId){
         //event.preventDefault();
         var box1 = new ajaxLoader($("body"));
