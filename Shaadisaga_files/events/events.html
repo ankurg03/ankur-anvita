@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>EVENTS</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+   <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    --> 
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=0"> -->
+    <title>Ankur &amp; Anvita | ankur-anvita</title>
+
+    <meta property="og:title" content="Ankur &amp; Anvita Wedding Website">
+    <meta property="og:description" content="With new aspirations, new dreams, new hopes and a desire to attain new horizons, we are stepping into a married life. Glance through our exclusive wedding website!!">
+    <!-- <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/ankur-anvita/images/fbPost.jpg">
+    <meta property="og:image:secure_url" content="https://s3-us-west-2.amazonaws.com/ankur-anvita/images/fbPost.jpg">
+ -->
+    <!-- <link rel="stylesheet" href="./style.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="./simple-sidebar.css" type="text/css"> -->
+    <link rel="stylesheet" href="../style(1).css" type="text/css">
+    <link href="../bootstrap.css" rel="stylesheet">
+    <link href="../carousel.css" rel="stylesheet">
+    <link href="../style(2).css" rel="stylesheet">
+    <link href="../bootstrap-datetimepicker.css" rel="stylesheet" media="screen">
+    <link href="../bootstrap-timepicker.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="../image-picker.css" type="text/css">
+    <link href="../css" rel="stylesheet" type="text/css">
+    <link href="../css(1)" rel="stylesheet" type="text/css">
+    
+
+    
+
+    <!-- <script async="" src="./analytics.js"></script><script id="facebook-jssdk" src="./all.js"></script><script src="./jquery-1.10.2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var urlInPlaceEdit = "/user/addProfile";
+    </script>
+    <style type="text/css">
+    .bootstrap-timepicker-widget{
+        z-index: 10000000;
+    }
+    .fb-like{
+        overflow: hidden;
+    }
+    .bootstrap-datetimepicker-widget{
+        z-index: 10000000;
+    }
+
+    </style>
+ -->
+    
+    <meta name="layout" content="mainCelebration">
+    
+
+
+    <link rel="stylesheet" type="text/css" href="../bootstrap-editable.css">
+    <link rel="stylesheet" type="text/css" href="../aui-all.css">
+    <link rel="stylesheet" type="text/css" href="../image-explorer.css">
+    <link rel="stylesheet" type="text/css" href="../image-upload-and-crop.css">
+    <link rel="stylesheet" type="text/css" href="../fd-slider.css">
+    <link rel="stylesheet" type="text/css" href="../jquery.Jcrop.min.css">
+
 </head>
 <body>
+<div class="main-d" align="center">
 
-<iframe src="https://calendar.google.com/calendar/b/1/embed?mode=AGENDA&amp;height=1000&amp;wkst=1&amp;bgcolor=%239999ff&amp;src=3p6sde1ukh8mjqhi4fvbrba3cg%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Asia%2FCalcutta" style="border:solid 1px #777" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+<img src="../graphic.png" class="grap" >
+    
+
+
+<h2 class="headline">Ring Ceremony</h2>
+<h3 id="whenData" data-toggle="manual" tabindex="-1" class="editable editable-pre-wrapped">Saturday Dec 9 2017</h3>
+
+<div id="ring" style="width:100%;height:250px" align="center"></div>
+<h2 class="headline">Wedding </h2>
+<h3 id="whenData" data-toggle="manual" tabindex="-1" class="editable editable-pre-wrapped">Friday Feb 23 2018 </h3>
+
+<div id="map2" style="width:100%;height:250px" align="center"></div>
+<h2 class="headline">Reception</h2>
+<h3 id="whenData" data-toggle="manual" tabindex="-1" class="editable editable-pre-wrapped">Sunday Feb 25 2018 </h3>
+
+<div id="map3" style="width:100%;height:250px" align="center"></div>
+
+<h2 class="headline">Wedding Calender</h2>
+<iframe id="preview" src="https://calendar.google.com/calendar/b/1/embed?mode=AGENDA&timeMin=2018-02-15T00%3A00%3A00%2B05%3A30&timeMax=2018-03-15T00%3A00%3A00%2B05%3A30&amp;height=1000&amp;wkst=1&amp;bgcolor=%239999ff&amp;src=3p6sde1ukh8mjqhi4fvbrba3cg%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Asia%2FCalcutta" style="border:solid 1px #777" width="100%" height="400" frameborder="3" scrolling="no" align="center">
+</iframe>
+  
+
+
+<script>
+function myMap() {
+  var ringCanvas = document.getElementById("ring");
+  var mapCanvas2 = document.getElementById("map2");
+  var mapCanvas3 = document.getElementById("map3");
+  var weddingCenter = new google.maps.LatLng(24.4125831,81.8775459); 
+  var ringCenter = new google.maps.LatLng(24.5406411,81.2855242); 
+  var receptionCenter = new google.maps.LatLng(24.8299603,79.8767201); 
+  
+  var mapOptionsring = {center: ringCenter, zoom: 8};
+  var mapOptionswedding = {center: weddingCenter, zoom: 8};
+  var mapOptionsreception = {center: receptionCenter, zoom: 8};
+
+  var map = new google.maps.Map(ringCanvas,mapOptionsring);
+  var map2 = new google.maps.Map(mapCanvas2,mapOptionswedding);
+  var map3 = new google.maps.Map(mapCanvas3,mapOptionsreception);
+  var marker = new google.maps.Marker({
+    position: ringCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  var marker2 = new google.maps.Marker({
+    position: weddingCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+
+  var marker3 = new google.maps.Marker({
+    position: receptionCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  
+  // var marker3 = new google.maps.Marker({
+  //   position: receptionCenter,
+  //   animation: google.maps.Animation.BOUNCE
+  // });
+  marker.setMap(map);
+  marker2.setMap(map2);
+  marker3.setMap(map3);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXIsxyu8JjkBcCYP4RcVICEidlxcZknG4&callback=myMap"></script>
+
+</div>
 
 </body>
 </html>
