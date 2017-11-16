@@ -266,7 +266,7 @@ h2{
     overflow:hidden;
 }
 .banner-area{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-p.jpg) no-repeat;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-p.jpg) no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -275,7 +275,7 @@ h2{
     min-height:300px;
 }
 .banner-area-website{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-website.jpg) no-repeat;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-website.jpg) no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -284,7 +284,7 @@ h2{
     min-height:500px;
 }
 .banner-p{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-p.jpg) no-repeat;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-p.jpg) no-repeat;*/
 }
 .banner-p h2{
     color:#fff;
@@ -305,7 +305,7 @@ h2{
 .banner-logo{
     height:500px;
     overflow:hidden;
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/logo-c.png) no-repeat center center;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/logo-c.png) no-repeat center center;*/
 }
 .ser-bg{
     -webkit-background-size: cover;
@@ -335,13 +335,13 @@ h2{
 }
 
 .photo-bg{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/photo-bg.jpg) no-repeat;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/photo-bg.jpg) no-repeat;*/
 }
 .makup-bg{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/makup-bg.jpg) no-repeat;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/makup-bg.jpg) no-repeat;*/
 }
 .honeymoon-bg{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/honeymoon-bg.jpg) no-repeat;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/honeymoon-bg.jpg) no-repeat;*/
 }
 .banner-area h4{
     font-family: 'Montserrat';
@@ -510,7 +510,7 @@ h2{
 }
 .s-list{
     padding:20px 0;
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/bg-shadow.png) no-repeat center bottom;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/bg-shadow.png) no-repeat center bottom;*/
 }
 .s-list .row{
     padding:10px 0;
@@ -537,7 +537,7 @@ h2{
 }
 .shadow{
     padding-bottom:30px;
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/bg-shadow1.png) no-repeat center bottom;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/bg-shadow1.png) no-repeat center bottom;*/
 }
 .c-form h4, .subheading{
    font-family: 'Montserrat';
@@ -641,7 +641,7 @@ h2{
     margin-top:80px;
 }
 .inv-thum-bg{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/bg-inv-thum.png) repeat-x bottom;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/bg-inv-thum.png) repeat-x bottom;*/
 }
 .inv-thum-bg .f-txt h3{
     color:#414042;
@@ -692,7 +692,7 @@ h2{
     margin:auto;
 }
 .pless-area{
-    background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-inv.jpg) no-repeat;
+    /*background:url(http://d2f1b7si1yoy7p.cloudfront.net/images/ShaadiSaga2.0/banner-inv.jpg) no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -21,7 +21,7 @@
 }
 .cover-area{
 	height:650px;
-	background:url(../../images/celebration/cover.jpg) no-repeat;
+	/*background:url(../../images/celebration/cover.jpg) no-repeat;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -81,7 +81,7 @@
 	border-bottom:1px solid #ccc;
 }
 .header-main{
-	background:url(../../images/celebration/head-bg.png) repeat;
+	/*background:url(../../images/celebration/head-bg.png) repeat;*/
 }
 .inner-h .header-main{
 	background:#e84d5f;
@@ -90,7 +90,7 @@
 	width:100%;
 	padding:50px 0;
 	overflow:hidden;
-	background:url(../../images/celebration/header-bg.png) no-repeat center 5px;
+	/*background:url(../../images/celebration/header-bg.png) no-repeat center 5px;*/
 }
 .logo-area-celebration h1{
 	font-family: 'quicksandregular';
@@ -99,7 +99,7 @@
 	text-align:center;
 	color:#fff;
 	text-transform:uppercase;
-	background:url(../../images/celebration/shadow-linew.png) no-repeat center bottom;
+	/*background:url(../../images/celebration/shadow-linew.png) no-repeat center bottom;*/
 	margin:0;
 	padding:0 0 10px 0;
 }
@@ -116,7 +116,7 @@
 }
 .head-caption{
   font-family: 'Rochester', cursive;
-  background:url(../../images/celebration/bg-t.png) repeat;
+  /*background:url(../../images/celebration/bg-t.png) repeat;*/
   padding:0 20px;
   color:#fff;
   width:520px;
@@ -127,7 +127,7 @@
  }
  .date-m{
   font-family: 'quicksandregular';
-  background:url(../../images/celebration/bg-t.png) repeat;
+  /*background:url(../../images/celebration/bg-t.png) repeat;*/
   color:#fff;
   width:400px;
   text-align:center;
@@ -140,7 +140,7 @@
 	width:200px;
 	margin:auto;
 	border-radius:5px;
-	background:url(../../images/celebration/bg-t.png) repeat;
+	/*background:url(../../images/celebration/bg-t.png) repeat;*/
 	display:block;
 	text-align:center;
 	text-transform:uppercase;

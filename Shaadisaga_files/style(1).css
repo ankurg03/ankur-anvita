@@ -264,7 +264,7 @@ body{
 	left:0;
 	height:100%;
 	width:33%;
-	background:url(../../images/invitation/bg-gray.png) repeat;
+	/*background:url(../../images/invitation/bg-gray.png) repeat;*/
 	position:absolute;
 	color:#fff;
 	top:0;
@@ -385,14 +385,14 @@ body{
 .top-nav li.add-link a{
 	color:#bf1c2d;
 	padding:5px 35px;
-	background:url(../../images/invitation/arrow-active.png) 68px 37px no-repeat;
+	/*background:url(../../images/invitation/arrow-active.png) 68px 37px no-repeat;*/
 }
 .top-nav li.add-link a:hover{
 	color:#fff;
-	background:url(../../images/invitation/arrow-active.png) 68px -37px no-repeat #bf1e2e;
+	/*background:url(../../images/invitation/arrow-active.png) 68px -37px no-repeat #bf1e2e;*/
 }
 .top-nav li.add-link:hover a{
-	background:url(../../images/invitation/arrow-active.png) 68px -37px no-repeat #bf1e2e;
+	/*background:url(../../images/invitation/arrow-active.png) 68px -37px no-repeat #bf1e2e;*/
 	color:#fff;
 }
 .top-nav li.add-link:hover ul li a{ 
